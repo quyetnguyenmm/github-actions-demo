@@ -1,0 +1,15 @@
+name: Super Linter
+on: [push]
+jobs:
+  build:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Super-linter
+      uses: super-linter/super-linter@v7.4.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
