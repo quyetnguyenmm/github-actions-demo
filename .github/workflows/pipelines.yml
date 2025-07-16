@@ -3,7 +3,6 @@ on: [push]
 permissions: {}
 jobs:
   build-abc:
-    name: Lint
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -17,4 +16,3 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         FIX_MARKDOWN_PRETTIER: true
         FIX_YAML_PRETTIER: true
-    
