@@ -1,12 +1,12 @@
-""" Testing Github Actions """
+"""Testing Github Actions"""
 
 def hello():
-    """ Function print Hi. """
+    """Function print Hi."""
     print("Hi")
 
 
 def bye():
-    """ Function print Bye. """
+    """Function print Bye."""
     print("Bye")
 
 
