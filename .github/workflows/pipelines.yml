@@ -2,7 +2,7 @@ name: Super Linter
 on: [push]
 permissions: {}
 jobs:
-  build:
+  build-abc:
     name: Lint
     runs-on: ubuntu-latest
     permissions:
